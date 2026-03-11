@@ -1,83 +1,73 @@
-# YouTube Transcript Summarizer
+# Welcome to your Lovable project
 
-## Overview
+## Project info
 
-The **YouTube Transcript Summarizer** is a system designed to extract transcripts from YouTube videos and generate concise summaries of the spoken content. This tool helps users quickly understand the key points of long videos without watching the entire video.
+**URL**: https://lovable.dev/projects/af5a35ac-21a3-40d2-9111-921d3c35f0fc
 
-The system processes video transcripts and applies automated text summarization techniques to produce a shorter and more readable version of the content.
+## How can I edit this code?
 
----
+There are several ways of editing your application.
 
-## Objectives
+**Use Lovable**
 
-* Extract transcript text from YouTube videos.
-* Process the transcript data for analysis.
-* Generate concise summaries of long video content.
-* Improve accessibility and understanding of lengthy video materials.
+Simply visit the [Lovable Project](https://lovable.dev/projects/af5a35ac-21a3-40d2-9111-921d3c35f0fc) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-## Features
+**Use your preferred IDE**
 
-* Automatic extraction of video transcripts.
-* Summarization of long transcripts into key points.
-* Faster understanding of video content.
-* Useful for educational and informational videos.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## System Workflow
+Follow these steps:
 
-1. Input a YouTube video link.
-2. Extract the transcript of the video.
-3. Process the transcript text.
-4. Apply summarization techniques.
-5. Generate a concise summary for the user.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## Applications
+# Step 3: Install the necessary dependencies.
+npm i
 
-* Educational video summarization
-* Research content review
-* Knowledge extraction from long videos
-* Quick understanding of lectures and tutorials
-
----
-
-## Project Structure
-
-```
-YouTube-Transcript-Summarizer
-│
-├── main.py
-├── app.py
-├── utils.py
-├── requirements.txt
-└── README.md
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
----
+**Edit a file directly in GitHub**
 
-## Requirements
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-The project requires the following dependencies:
+**Use GitHub Codespaces**
 
-* Python
-* Natural language processing libraries
-* YouTube transcript extraction tools
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
----
+## What technologies are used for this project?
 
-## Future Improvements
+This project is built with:
 
-* Multi-language transcript support
-* Enhanced summarization techniques
-* Real-time video summarization
-* Integration with web applications
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## Conclusion
+Simply open [Lovable](https://lovable.dev/projects/af5a35ac-21a3-40d2-9111-921d3c35f0fc) and click on Share -> Publish.
 
-The **YouTube Transcript Summarizer** provides a practical solution for quickly understanding video content by transforming long transcripts into concise summaries. This improves efficiency for users who need to process large amounts of video information.
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
